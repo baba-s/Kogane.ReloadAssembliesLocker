@@ -9,7 +9,7 @@ namespace Kogane.Internal
 
 		static ReloadAssembliesLocker()
 		{
-			UpdateChecked();
+			EditorApplication.delayCall += () => UpdateChecked();
 
 			void OnChanged( PlayModeStateChange change )
 			{
