@@ -1,5 +1,5 @@
 {
-    "name": "UniReloadAssembliesLocker",
+    "name": "Kogane.ReloadAssembliesLocker",
     "references": [],
     "includePlatforms": [
         "Editor"
